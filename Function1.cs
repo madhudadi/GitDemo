@@ -4,6 +4,7 @@ using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 
 // Included comments in Function1.cs
+// Not available in Master only added in dev1
 namespace MyFirstFunction;
 
 public class Function1
