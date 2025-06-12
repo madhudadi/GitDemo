@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 
+// Included comments in Function1.cs
 namespace MyFirstFunction;
 
 public class Function1
