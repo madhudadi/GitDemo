@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 namespace MyFirstFunction;
 
 public class Function1
-
+// In develop and the comment is not in master branch
 /// <summary>
 /// Represents an Azure Function that handles HTTP GET and POST requests.
 /// </summary>
