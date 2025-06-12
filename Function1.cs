@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 
 // Included comments in Function1.cs
 // Only in develop not in master
+// Test Comment in dev branch
 namespace MyFirstFunction;
 
 public class Function1
