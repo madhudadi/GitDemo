@@ -6,6 +6,22 @@ using Microsoft.Extensions.Logging;
 namespace MyFirstFunction;
 
 public class Function1
+
+/// <summary>
+/// Represents an Azure Function that handles HTTP GET and POST requests.
+/// </summary>
+/// <remarks>
+/// This class demonstrates a simple Azure Function implementation using dependency injection for logging.
+/// </remarks>
+/// <param name="logger">
+/// The <see cref="ILogger{Function1}"/> instance used for logging information and diagnostics.
+/// </param>
+/// <developer>
+/// Developer Notes:
+/// - The function is triggered by HTTP requests with either GET or POST methods.
+/// - Logging is performed at the start of each function invocation.
+/// - The function returns a welcome message as an <see cref="OkObjectResult"/>.
+/// </developer>
 {
     private readonly ILogger<Function1> _logger;
 
